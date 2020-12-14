@@ -1,0 +1,47 @@
+* Laboration 3
+
+Sofia Ågren
+
+2020-12-10
+
+Jag har jobbbat med Andreas Roghe.
+
+*** Uppgift 1
+
+Skapa testklasser för BST och Heap och test tidsåtgången på dessa.
+
+*** Uppgift 2
+
+Skapa ett interface för en prioritetskö.
+
+*** Uppgift 3
+
+Skapa ett JUnit-test för en proiritskö utan att ha skapat klassen innan.
+
+*** Uppgift 4
+
+Skapa en klass för att skapa en Heap-prioritetskö.
+
+** Diskussionsfrågor
+
+1. 
+	Hur bör prioritetskön hantera eventuella dubbletter?
+	
+	Ett runtime exception bör kastas för att meddela användaren. och sedan kastar dubletten.
+
+2.
+	Enqueue
+	(a) Sorterad lista, O(N)
+	(b) BST, värsta O(N^2) genomsnitt O(log(N))
+	(c) Heap, i alla fall O(log(N))
+
+3.
+	Dequeue	
+	(a) Sorterad list, O(N)
+	(b) BST, värsta O(N^2)(sorterad omvänd dequeue) genomsnitt O(log(N))
+	(c) Heap, i alla fall O(log(N))	
+	
+4.
+	Heap går väldigt fort både med enqueue och dequeue, vare sig den är sorterad eller ej.	
+	BST går fort om den ej är sorterad för det blir lätt ett urartat träd dvs en länkad lista 
+	Men är den sorterad tar de längre tid för att elementena måste byta plats och flyttas.
