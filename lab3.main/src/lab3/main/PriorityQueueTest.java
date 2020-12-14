@@ -14,6 +14,7 @@ class PriorityQueueTest {
 
 	static PriorityQueue<Integer> pQueue;
 	static PriorityQueue<String> stringPQueue;
+	private int size = 30;
 	private static final String[] ALFABETET = {"a","b","c","d","e","f","g","h","i",
             					"j","k","l","m","n","o","p","q","r","s","t","u","v",
             					"w","x","y","z"};
@@ -32,7 +33,7 @@ class PriorityQueueTest {
 	void setUp() throws Exception {
 		pQueue = new HeapPriorityQueue<Integer>();
 		stringPQueue = new HeapPriorityQueue<String>();
-		for(int i = 0; i <30; i++) {
+		for(int i = 0; i < size; i++) {
 			pQueue.enqueue(i);
 		}
 		for(String a : ALFABETET) {
