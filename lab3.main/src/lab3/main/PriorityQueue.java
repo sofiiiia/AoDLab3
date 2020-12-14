@@ -31,7 +31,7 @@ public interface PriorityQueue<T extends Comparable<? super T>> {
 
 	/**
 	 * Adds an element in heap.
-	 * @param element
+	 * @param element.
 	 */
 	public void enqueue(T element);
 

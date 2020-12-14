@@ -1,6 +1,6 @@
 package lab3.main;
 /**
- * Creates a heap queue
+ * Creates a heap queue.
  * 
  * @author Sofia Ågren
  * @version 2020-12-10
