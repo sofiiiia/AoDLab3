@@ -8,19 +8,19 @@ Jag har jobbbat med Andreas Roghe.
 
 *** Uppgift 1
 
-Skapa testklasser för BST och Heap och test tidsåtgången på dessa.
+Skapa testklasser för BST och Heap och test tidsåtgången på dessa. Dessa klasser heter =HaepQueue= och =BSTQueue=
 
 *** Uppgift 2
 
-Skapa ett interface för en prioritetskö.
+Skapa ett interface för en prioritetskö. Interfacet heter =PriorityQueue=.
 
 *** Uppgift 3
 
-Skapa ett JUnit-test för en proiritskö utan att ha skapat klassen innan.
+Skapa ett JUnit-test för en proiritskö utan att ha skapat klassen innan. =PriorityQueueTest= heter de testet.
 
 *** Uppgift 4
 
-Skapa en klass för att skapa en Heap-prioritetskö.
+Skapa en klass för att skapa en Heap-prioritetskö och implemntera de metoder som finns i interfacet =PriorityQueue=.
 
 ** Diskussionsfrågor
 
