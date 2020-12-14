@@ -7,14 +7,17 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-
-
+/**
+ * Test class for an heap queue
+ * @author Sofia Ågren
+ * @version 2020-12-14
+ *
+ */
 class PriorityQueueTest {
 
 	static PriorityQueue<Integer> pQueue;
 	static PriorityQueue<String> stringPQueue;
-	private int size = 30;
+	private static final int size = 30;
 	private static final String[] ALFABETET = {"a","b","c","d","e","f","g","h","i",
             					"j","k","l","m","n","o","p","q","r","s","t","u","v",
             					"w","x","y","z"};
