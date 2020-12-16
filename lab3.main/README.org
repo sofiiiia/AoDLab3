@@ -45,3 +45,5 @@ Skapa en klass för att skapa en Heap-prioritetskö och implemntera de metoder s
 	Heap går väldigt fort både med enqueue och dequeue, vare sig den är sorterad eller ej.	
 	BST går fort om den ej är sorterad för det blir lätt ett urartat träd dvs en länkad lista 
 	Men är den sorterad tar de längre tid för att elementena måste byta plats och flyttas.
+	
+	
