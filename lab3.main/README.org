@@ -37,8 +37,8 @@ Skapa en klass för att skapa en Heap-prioritetskö och implemntera de metoder s
 
 3.
 	Dequeue	
-	(a) Sorterad list, O(N)
-	(b) BST, värsta O(N^2)(sorterad omvänd dequeue) genomsnitt O(log(N))
+	(a) Sorterad list, O(1)
+	(b) BST, värsta O(N)(sorterad omvänd dequeue) genomsnitt O(log(N))
 	(c) Heap, i alla fall O(log(N))	
 	
 4.
